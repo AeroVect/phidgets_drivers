@@ -1,6 +1,17 @@
 Phidgets drivers for ROS
 ========================
 
+### From source ###
+AeroVect Note:
+--------
+Example to Run Encoder
+Sliding Window should be larger
+
+```
+rosrun phidgets_high_speed_encoder phidgets_high_speed_encoder_node _joint0_name:=wt_main _joint0_tick2rad:=2848.87 _serial_number:=5882 _PUBLISH_RATE:=20
+```
+
+
 Overview
 --------
 
