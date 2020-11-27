@@ -10,7 +10,10 @@ Sliding Window should be larger
 ```
 rosrun phidgets_high_speed_encoder phidgets_high_speed_encoder_node _joint0_name:=wt_main _joint0_tick2rad:=0.00034746365 _serial_number:=590882 _PUBLISH_RATE:=20
 ```
-
+To run with output as m/s:
+```
+rosrun phidgets_high_speed_encoder phidgets_high_speed_encoder_node _joint0_name:=wt_main _joint0_tick2rad:=0.00011963173 _serial_number:=590882 _PUBLISH_RATE:=20
+```
 
 Overview
 --------
